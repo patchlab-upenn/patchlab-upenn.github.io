@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://patchlab-upenn.github.io/al-folio/sitemap.xml
+Sitemap: https://patchlab-upenn.github.io/sitemap.xml
