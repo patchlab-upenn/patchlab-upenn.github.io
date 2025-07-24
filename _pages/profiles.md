@@ -9,20 +9,28 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: right
-    image: patch_lab_logo.png
-    content: people_1.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
   - align: left
-    image: patch_lab_logo.png
-    content: people_1.md
+    image: paul_yushkevich.png
+    content: people_paul_yushkevich.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Paul A. Yushkevich</p>
+  - align: left
+    image: dave_wolk.jpg
+    content: people_dave_wolk.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Dave A. Wolk</p>
+  - align: left
+    image: sandy_das.jpeg
+    content: people_sandy_das.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Sandhitsu R. Das</p>
+  - align: left
+    image: pulkit_khandelwal.png
+    content: people_pulkit_khandelwal.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Pulkit Khandelwal</p>
 ---
