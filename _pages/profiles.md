@@ -57,28 +57,28 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Zahra Khodakarami</p>
-   - align: left
-    image: gaylord.png
-    content: 
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Gaylord Holder</p>
-   - align: left
-    image: lisa.jpg
-    content: 
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Lisa Levorse</p>
-   - align: left
-    image: ranjit.jpg
-    content: 
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Ranjit Ittyerah</p>
-   - align: left
-    image: emily.jpeg
-    content: 
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Emily McGrew</p>
+ - align: left
+  image: gaylord.png
+  content: 
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Gaylord Holder</p>
+ - align: left
+  image: lisa.jpg
+  content: 
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Lisa Levorse</p>
+ - align: left
+  image: ranjit.jpg
+  content: 
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Ranjit Ittyerah</p>
+ - align: left
+  image: emily.jpeg
+  content: 
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Emily McGrew</p>
 ---
