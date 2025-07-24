@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Penn ADRD Trajectories, Copathology, and
 
 profile:
   align: right
-  image: patch_lab_logo.jpg
+  image: patch_lab_logo.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Richards Medical Research Laboratories</p>
