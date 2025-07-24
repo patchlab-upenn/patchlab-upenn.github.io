@@ -33,4 +33,11 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Pulkit Khandelwal</p>
+  - align: left
+    image: yue_li.png
+    content: people_yue_li.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Yue Li</p>
+ 
 ---
