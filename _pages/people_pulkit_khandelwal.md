@@ -1,0 +1,5 @@
+
+Hello!
+I’m a postdoctoral researcher in the department of Radiology at the University of Pennsylvania under the supervision of Prof. Paul Yushkevich, where I also obtained my PhD. Previously, I completed MSc. in computer science in the Shape Analysis Group at McGill University where I was supervised by Prof. Kaleem Siddiqi and Prof. Louis Collins at the Montreal Neurological Institute.
+
+My primary research focus is to develop computational methods to analyze ultra-high resolution postmortem human brain at 7 tesla MRI and link morphometry with histopathology in Alzheimer’s and related dementias.
