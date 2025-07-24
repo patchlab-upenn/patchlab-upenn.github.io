@@ -28,3 +28,4 @@ latest_posts:
 
 Hello world! Welcome to the official Penn ADRD Trajectories, Copathology, and Heterogeneity (PATCH) Lab led jointly by Paul A. Yushkevich, Sandhitsu R. Das, and David A. Wolk at the University of Pennsylvania. We are a subset of scientists and researchers working within the Penn ADRD, FTDC, PICSL labs at UPenn.
 
+Thanks for your patience while we give the website a fresh new look!
