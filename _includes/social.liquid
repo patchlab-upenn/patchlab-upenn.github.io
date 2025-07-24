@@ -5,9 +5,9 @@
     {% when 'blogger_url' %}
       <a href="{{ social[1] }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
     {% when 'bluesky_url' %}
-      <a href="{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+      <a href="https://bsky.app/profile/{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
     {% when 'dblp_url' %}
-      <a href="https://bsky.app/profile/{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
+      <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
     {% when 'discord_id' %}
       <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
     {% when 'email' %}
