@@ -1,0 +1,2 @@
+I am a postdoctoral researcher working at imaging biomarker design in multi-modality data for neurodegenerative disease. I am very excited about the neuroimaging I am currently studying. I have learned a lot at PATCH Lab, from the pathology of neurological diseases to image appearances, and from image analysis to coding. 
+Before joining PATCH Lab, I received my PhD in Computational Mathematics and bachelor’s degree in mathematics and applied mathematics from Sun Yat-sen University, Guangzhou, China.
