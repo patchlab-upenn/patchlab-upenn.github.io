@@ -39,46 +39,46 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Yue Li</p>
-- align: left
-    image: amanda.jpeg
+  - align: left
+      image: amanda.jpeg
+      content: 
+      image_circular: false # crops the image to make it circular
+      more_info: >
+        <p>Amanda Denning</p>
+  - align: left
+      image: emma.jpg
+      content: 
+      image_circular: false # crops the image to make it circular
+      more_info: >
+        <p>Emma Fischer</p>   
+  - align: left
+      image: zahra.jpeg
+      content: 
+      image_circular: false # crops the image to make it circular
+      more_info: >
+        <p>Zahra Khodakarami</p>
+   - align: left
+    image: gaylord.png
     content: 
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Amanda Denning</p>
- - align: left
-    image: emma.jpg
+      <p>Gaylord Holder</p>
+   - align: left
+    image: lisa.jpg
     content: 
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Emma Fischer</p>   
-- align: left
-    image: zahra.jpeg
+      <p>Lisa Levorse</p>
+   - align: left
+    image: ranjit.jpg
     content: 
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Zahra Khodakarami</p>
- - align: left
-  image: gaylord.png
-  content: 
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Gaylord Holder</p>
- - align: left
-  image: lisa.jpg
-  content: 
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Lisa Levorse</p>
- - align: left
-  image: ranjit.jpg
-  content: 
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Ranjit Ittyerah</p>
- - align: left
-  image: emily.jpeg
-  content: 
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Emily McGrew</p>
+      <p>Ranjit Ittyerah</p>
+   - align: left
+    image: emily.jpeg
+    content: 
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Emily McGrew</p>
 ---
