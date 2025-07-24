@@ -496,7 +496,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("patch-lab-upenn.bsky.social", "_blank");
+          window.open("patch-lab-upenn", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -511,13 +511,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=x-a4f8wAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://patchlab.pennbrain.upenn.edu/", "_blank");
         },
       },{
       id: 'light-theme',
