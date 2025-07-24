@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /about/
+permalink: /
 subtitle: <a href='#'>Affiliations</a>. Penn ADRD Trajectories, Copathology, and Heterogeneity Lab
 
 profile:
