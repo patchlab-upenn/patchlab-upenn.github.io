@@ -21,6 +21,11 @@ profiles:
     email: pyushkevich@gmail.com
     more_info: >
       <p>Paul A. Yushkevich</p>
+        <p>
+          <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+          <a href="https://orcid.org/0000-0002-9703-4750" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+          <a href="https://github.com/pyushkevich" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </p>
 
   - align: left
     image: sandy_das.jpeg
