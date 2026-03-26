@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Richards Medical Research Laboratories</p>
-    <p>6th Floor 6025, 3700 Hamilton Walk</p>
+    <p>6th Floor D601, 3700 Hamilton Walk</p>
     <p>Philadelphia, PA 19104</p>
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,6 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello world! Welcome to the official Penn ADRD Trajectories, Copathology, and Heterogeneity (PATCH) Lab led jointly by Paul A. Yushkevich, Sandhitsu R. Das, and David A. Wolk at the University of Pennsylvania. We are a subset of scientists and researchers working within the Penn ADRD, FTDC, PICSL labs at UPenn.
+Welcome to the official website of the **Penn ADRD Trajectories, Copathology, and Heterogeneity (PATCH) Lab** at the University of Pennsylvania. 
 
-Thanks for your patience while we give the website a fresh new look!
+PATCH Lab lies at the intersection of clinical neurodegenerative disease research and computational neuroimaging methods. Our mission is to develop biomarkers that can shed light on heterogeneity of Alzheimer's and related neurodegenerative diseases, accurately track disease progression and treatment response, and, ultimately, support personalized medicine for neurodegenerative disease. PATCH Lab members share a strong committment to responsible open science and development of open-source scientific software.
+
+PATCH Lab was officially formed in 2025, but the close collaboration between its founding [faculty members](/people/) goes back to the mid-2000s. We are a dynamic group of Ph.D. students, postdocs, research scientists, and faculty. We have close collaborations with many programs, labs, departments, and centers at Penn, including the [Penn Alzheimer's Disease Research Center](https://www.med.upenn.edu/adrc/), [Penn Frontotemporal Degeneration Center](https://www.med.upenn.edu/ftd/), [Penn Image Computing and Science Laboratory](https://picsl.upenn.edu/), [Neuroscience](https://www.med.upenn.edu/ngg/) and [Bioengineering](https://be.seas.upenn.edu/graduate-group/) Graduate Groups, and Departments of [Neurology](https://www.pennmedicine.org/departments-and-centers/neurology), [Radiology](https://www.pennmedicine.org/departments-and-centers/department-of-radiology), and [Pathology](https://pathology.med.upenn.edu/).
+
+
+
+<!-- We are a subset of scientists and researchers working within the Penn ADRD, FTDC, PICSL labs at UPenn.-->
