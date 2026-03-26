@@ -37,9 +37,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-software",
+          title: "software",
+          description: "Open Source Software from the PATCH|Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Teaching and Seminars",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -417,6 +424,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-we-will-be-at-aaic-2025-please-find-us",
           title: 'We will be at AAIC 2025! Please find us :)',
+          description: "",
+          section: "News",},{id: "news-patch-lab-website-updated-almost-ready",
+          title: 'PATCH|Lab website updated - almost ready!',
           description: "",
           section: "News",},{id: "projects-mtl-postmortem-imaging",
           title: 'MTL Postmortem Imaging',
