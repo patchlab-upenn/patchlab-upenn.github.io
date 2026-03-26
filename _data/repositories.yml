@@ -1,13 +1,14 @@
 github_users:
-  - pyushkevich
-  - Pulkit-Khandelwal
-  - ins0mniac2
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - pyushkevich/itksnap
-  - pyushkevich/greedy
-  - pyushkevich/c3d
-  - pyushkevich/histoannot
-  - pyushkevich/hyperresashs
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
