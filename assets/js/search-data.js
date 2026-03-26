@@ -23,16 +23,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-research",
+          title: "research",
+          description: "PATCH|Lab primary research directions",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "PATCH|Lab GitHub Repositories",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -418,16 +418,16 @@ ninja.data = [{
           section: "News",},{id: "news-we-will-be-at-aaic-2025-please-find-us",
           title: 'We will be at AAIC 2025! Please find us :)',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-mtl-postmortem-imaging",
+          title: 'MTL Postmortem Imaging',
+          description: "High-Resolution Postmortem Imaging of the Human Medial Temporal Lobe",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_mtlexvivo/";
+            },},{id: "projects-t-n-and-t-c-mismatch",
+          title: 'T/N and T/C Mismatch',
+          description: "Tau-Neurodegeneration/Cognition Mismatch Framework",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/2_mismatch/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
