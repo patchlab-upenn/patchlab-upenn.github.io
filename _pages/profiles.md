@@ -8,13 +8,6 @@ nav_order: 1
 
 profiles:
   - align: left
-    image: paul_yushkevich.png
-    content: people_paul_yushkevich.md
-    image_circular: false
-    more_info: >
-      <p>Paul A. Yushkevich</p>
-
-  - align: left
     image: dave_wolk.jpg
     content: people_dave_wolk.md
     image_circular: false
@@ -22,11 +15,26 @@ profiles:
       <p>Dave A. Wolk</p>
 
   - align: left
+    image: paul_yushkevich.png
+    content: people_paul_yushkevich.md
+    image_circular: false
+    email: pyushkevich@gmail.com
+    more_info: >
+      <p>Paul A. Yushkevich</p>
+
+  - align: left
     image: sandy_das.jpeg
     content: people_sandy_das.md
     image_circular: false
     more_info: >
       <p>Sandhitsu R. Das</p>
+
+  - align: left
+    image: chris_brown.jpg
+    content: people_chris_brown.md
+    image_circular: false
+    more_info: >
+      <p>Christopher Brown</p>
 
   - align: left
     image: pulkit_khandelwal.png
