@@ -18,13 +18,13 @@ profiles:
     image: people/paul_yushkevich.png
     content: people/people_paul_yushkevich.md
     image_circular: false
-    email: pyushkevich@gmail.com
     more_info: >
       <p>Paul A. Yushkevich</p>
         <p>
           <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
           <a href="https://orcid.org/0000-0002-9703-4750" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
           <a href="https://github.com/pyushkevich" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/paul-yushkevich-a5568313/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </p>
 
   - align: left
