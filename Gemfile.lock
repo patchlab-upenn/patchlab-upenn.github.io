@@ -99,7 +99,7 @@ GEM
       nokogiri (>= 1.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
-    httparty (0.22.0)
+    httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -276,7 +276,7 @@ DEPENDENCIES
   classifier-reborn
   css_parser
   feedjira
-  httparty
+  httparty (>= 0.24.0)
   jekyll
   jekyll-archives-v2
   jekyll-email-protect
