@@ -8,15 +8,15 @@ nav_order: 1
 
 profiles:
   - align: left
-    image: dave_wolk.jpg
-    content: people_dave_wolk.md
+    image: people/dave_wolk.jpg
+    content: people/people_dave_wolk.md
     image_circular: false
     more_info: >
       <p>Dave A. Wolk</p>
 
   - align: left
-    image: paul_yushkevich.png
-    content: people_paul_yushkevich.md
+    image: people/paul_yushkevich.png
+    content: people/people_paul_yushkevich.md
     image_circular: false
     email: pyushkevich@gmail.com
     more_info: >
@@ -28,77 +28,77 @@ profiles:
         </p>
 
   - align: left
-    image: sandy_das.jpeg
-    content: people_sandy_das.md
+    image: people/sandy_das.jpeg
+    content: people/people_sandy_das.md
     image_circular: false
     more_info: >
       <p>Sandhitsu R. Das</p>
 
   - align: left
-    image: chris_brown.jpg
-    content: people_chris_brown.md
+    image: people/chris_brown.jpg
+    content: people/people_chris_brown.md
     image_circular: false
     more_info: >
       <p>Christopher Brown</p>
 
   - align: left
-    image: pulkit_khandelwal.png
-    content: people_pulkit_khandelwal.md
+    image: people/pulkit_khandelwal.png
+    content: people/people_pulkit_khandelwal.md
     image_circular: false
     more_info: >
       <p>Pulkit Khandelwal</p>
 
   - align: left
-    image: yue_li.png
-    content: people_yue_li.md
+    image: people/yue_li.png
+    content: people/people_yue_li.md
     image_circular: false
     more_info: >
       <p>Yue Li</p>
 
   - align: left
-    image: amanda.jpeg
+    image: people/amanda.jpeg
     content:
     image_circular: false
     more_info: >
       <p>Amanda Denning</p>
 
   - align: left
-    image: emma.jpg
+    image: people/emma.jpg
     content:
     image_circular: false
     more_info: >
       <p>Emma Fischer</p>
 
   - align: left
-    image: zahra.jpeg
+    image: people/zahra.jpeg
     content:
     image_circular: false
     more_info: >
       <p>Zahra Khodakarami</p>
 
   - align: left
-    image: gaylord.png
+    image: people/gaylord.png
     content:
     image_circular: false
     more_info: >
       <p>Gaylord Holder</p>
 
   - align: left
-    image: lisa.jpg
+    image: people/lisa.jpg
     content:
     image_circular: false
     more_info: >
       <p>Lisa Levorse</p>
 
   - align: left
-    image: ranjit.jpg
+    image: people/ranjit.jpg
     content:
     image_circular: false
     more_info: >
       <p>Ranjit Ittyerah</p>
 
   - align: left
-    image: emily.jpeg
+    image: people/emily.jpeg
     content:
     image_circular: false
     more_info: >
