@@ -203,18 +203,6 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/repositories/">repositories
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                
-                <li class="nav-item ">
-                  
                   <a class="nav-link" href="/software/">software
                     
                   </a>
@@ -222,6 +210,18 @@
               
             
           
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/repositories/">repositories
+                    
+                  </a>
+                </li>
+              
             
           
             
@@ -353,7 +353,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="14f84b10-a63a-4b28-8517-1dd8d10a335f" data-name="log">
+<ul id="log" class="tab" data-tab="d2458c1c-042b-43b9-bd2c-e728943a71b6" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -368,7 +368,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="14f84b10-a63a-4b28-8517-1dd8d10a335f" data-name="log">
+<ul class="tab-content" id="d2458c1c-042b-43b9-bd2c-e728943a71b6" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -392,7 +392,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="cf4229bf-e04f-4113-b7ac-732c1b4c2954" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="704d24d3-efe4-4494-8735-0fc01ad7afd5" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -403,7 +403,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="cf4229bf-e04f-4113-b7ac-732c1b4c2954" data-name="data-struct">
+<ul class="tab-content" id="704d24d3-efe4-4494-8735-0fc01ad7afd5" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -425,7 +425,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="1595b103-dc5f-41d4-9454-68589a88be8e" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="aa5e6baf-d061-462c-995d-197763b5e177" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -440,7 +440,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="1595b103-dc5f-41d4-9454-68589a88be8e" data-name="something-else">
+<ul class="tab-content" id="aa5e6baf-d061-462c-995d-197763b5e177" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
@@ -778,19 +778,19 @@ Content 2
               handler: () => {
                 window.location.href = "/projects/";
               },
-            },{id: "nav-repositories",
-              title: "repositories",
-              description: "PATCH|Lab GitHub Repositories",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/repositories/";
-              },
             },{id: "nav-software",
               title: "software",
               description: "Open Source Software from the PATCH|Lab.",
               section: "Navigation",
               handler: () => {
                 window.location.href = "/software/";
+              },
+            },{id: "nav-repositories",
+              title: "repositories",
+              description: "PATCH|Lab GitHub Repositories",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/repositories/";
               },
             },{id: "nav-teaching",
               title: "teaching",
@@ -1188,21 +1188,11 @@ Content 2
               description: "High-Resolution Postmortem Imaging of the Human Medial Temporal Lobe",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/1_mtlexvivo/";
-                },},{id: "projects-project-1",
-              title: 'project 1',
-              description: "with background image",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/1_project/";
                 },},{id: "projects-t-n-and-t-c-mismatch",
               title: 'T/N and T/C Mismatch',
               description: "Tau-Neurodegeneration/Cognition Mismatch Framework",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/2_mismatch/";
-                },},{id: "projects-project-2",
-              title: 'project 2',
-              description: "a project with a background image and giscus comments",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/2_project/";
                 },},{id: "projects-project-3-with-very-long-name",
               title: 'project 3 with very long name',
               description: "a project that redirects to another website",
@@ -1251,13 +1241,6 @@ Content 2
             section: 'Socials',
             handler: () => {
               window.open("https://bsky.app/profile/patch-lab-upenn.bsky.social", "_blank");
-            },
-          },{
-            id: 'socials-rss',
-            title: 'RSS Feed',
-            section: 'Socials',
-            handler: () => {
-              window.open("/feed.xml", "_blank");
             },
           },{
           id: 'light-theme',
