@@ -33,7 +33,7 @@ nav_order: 4
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/software/c3d_gemini.png" title="C3D AI logo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/software/c3d_gpt.png" title="C3D AI logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         <b>Convert3D / C3D</b> (<a href="https://www.itksnap.org/pmwiki/pmwiki.php?n=Convert3D.Convert3D">home</a>, <a href="https://github.com/pyushkevich/c3d">code</a>, <a href="https://github.com/pyushkevich/c3d_python">python wrapper</a>) is a commmand-line image processing tool that offers complementary features to ITK-SNAP. Originally developed to convert between various 3D image formats, the tool has become more of a Swiss army knife for medical image processing.
@@ -41,7 +41,7 @@ nav_order: 4
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/software/greedy_gemini.png" title="Greedy AI logo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/software/greedy_gpt.png" title="Greedy AI logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         <b>Greedy</b> (<a href="https://sites.google.com/view/greedyreg/home">home</a>, <a href="https://github.com/pyushkevich/greedy">code</a>, <a href="https://github.com/pyushkevich/greedy_python">python wrapper</a>) is a tool for fast medical image registration. The motivation for developing greedy was to have a really fast CPU-based deformable image registration tool that could be used in applications and pipelines where many images have to be registered in parallel. 
