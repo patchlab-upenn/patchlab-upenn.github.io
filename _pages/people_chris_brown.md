@@ -1,0 +1,3 @@
+In my free time, I enjoy cooking, exploring local restaurants with my wife, and taking trips to the park with my dog.  I am a big sports fan, particularly of Premier League soccer, Kentucky basketball, and St. Louis Cardinal’s baseball! My wife and I also enjoy traveling to different countries and exploring National and State Parks.
+
+Academically, I am interested in the cognitive aspects of neurological disease, particularly neurodegenerative disease. My research interests are in using neuroimaging techniques to understand mechanisms contributing to cognition in older adults and neurological diseases.

@@ -419,25 +419,42 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-welcome-we-are-actively-revamping-our-new-website",
-          title: 'Welcome! We are actively revamping our new website!',
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-we-will-be-at-aaic-2025-please-find-us",
-          title: 'We will be at AAIC 2025! Please find us :)',
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
           description: "",
-          section: "News",},{id: "news-patch-lab-website-updated-almost-ready",
-          title: 'PATCH|Lab website updated - almost ready!',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-mtl-postmortem-imaging",
+          section: "News",},{id: "projects-project-10",
+          title: 'project 10',
+          description: "A project with an introduction section",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-mtl-postmortem-imaging",
           title: 'MTL Postmortem Imaging',
           description: "High-Resolution Postmortem Imaging of the Human Medial Temporal Lobe",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_mtlexvivo/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-t-n-and-t-c-mismatch",
           title: 'T/N and T/C Mismatch',
           description: "Tau-Neurodegeneration/Cognition Mismatch Framework",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_mismatch/";
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "a project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
