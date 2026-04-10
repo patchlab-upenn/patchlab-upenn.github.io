@@ -198,6 +198,7 @@ GEM
       stringio
       time
       uri
+    ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     prism (1.9.0)
@@ -243,8 +244,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64 (~> 0.3.0)
   classifier-reborn
   css_parser
+  csv (~> 3.3)
   feedjira
   httparty
   jekyll
@@ -264,8 +267,10 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  logger (~> 1.7)
   mini_racer
   observer
+  ostruct (~> 0.6.3)
   unicode_utils
   webrick
 
