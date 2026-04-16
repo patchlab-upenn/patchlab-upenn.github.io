@@ -445,9 +445,9 @@ ninja.data = [{
           description: "Tau-Neurodegeneration/Cognition Mismatch Framework",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_mismatch/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-quantitative-neuropathology",
+          title: 'Quantitative Neuropathology',
+          description: "Deep learning-based measures for quantification of human neuropathology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",

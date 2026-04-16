@@ -4,9 +4,6 @@
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-      
-      <meta http-equiv="refresh" content="3; url=https://unsplash.com">
-    
     <!-- Metadata, OpenGraph and Schema.org -->
 
 
@@ -20,12 +17,12 @@
   
   
     
-      project 3 with very long name | PATCH|Lab
+      Quantitative Neuropathology | PATCH|Lab
     
   
 </title>
 <meta name="author" content="Penn ADRD Trajectories, Copathology, and Heterogeneity (PATCH) Lab">
-<meta name="description" content="a project that redirects to another website">
+<meta name="description" content="Deep learning-based measures for quantification of human neuropathology">
 
   <meta name="keywords" content="ADRD">
 
@@ -284,25 +281,15 @@
 <div class="post">
   <header class="post-header">
     
-      <h1 class="post-title">project 3 with very long name</h1>
-      <p class="post-description">a project that redirects to another website</p>
+      <h1 class="post-title">Quantitative Neuropathology</h1>
+      <p class="post-description">Deep learning-based measures for quantification of human neuropathology</p>
     
   </header>
 
   <article>
-    <p>Every project has a beautiful feature showcase page.
-It’s easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.</p>
+    <p>Postmortem neuropathology is the gold standard for analysis of neurodegenerative pathologies yet is limited by time-consuming semi-quantitative ratings by experts applied to sparsely sampled brain regions. To address these concerns, the PATCH lab has developed multiple computational tools to digitally quantify neuropathology across the three-dimensional space of the brain. Deep learning-based techniques allow for high throughput analysis of digitally scanned sections and can characterize a wider range of pathological burden than traditional semi-quantitative ratings of pathology. Many of these projects have been done in close collaboration with the Penn Digital Neuropathology Lab, led by Dr. David Irwin. Thus far, we have developed models for quantification of tau pathology in Alzheimer’s Disease and TDP-43 pathology in limbic predominant age-related TDP4-3 encephalopathy <a class="citation" href="#yushkevich20213d">(Yushkevich et al., 2021; Athalye et al., 2025; Denning et al., 2024)</a>. Using both antemortem and postmortem imaging, we have found strong, regionally specific associations between tau pathology and MTL cortical thickness <a class="citation" href="#ravikumar2024postmortem">(Ravikumar et al., 2024)</a> and found that quantitative measurement of tau pathology significantly improved modeling of MTL structure compared to traditional semi-quantitative ratings <a class="citation" href="#denning2024association">(Denning et al., 2024)</a>. Further work is underway for quantification of neuron and glial density, amyloid-beta plaques and cerebral amyloid angiopathy, and calcium-binding interneurons.</p>
 
-<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
----
-</code></pre></div></div>
+<p>We are also extending quantitative neuropathology methods to white matter pathology, focusing on the heterogeneous substrates underlying white matter hyperintensities (WMH) on MRI. WMH are prevalent markers of aging and neurodegeneration, yet reflect a mixture of demyelination, vascular injury, inflammation, and axonal loss that volumetric measures cannot disentangle. We developed an automated pipeline for quantifying myelin integrity from LFB-CV stained whole-slide images using optical density normalized against automatically identified intact reference regions, establishing histological ground truth to train models that predict regional myelin loss from in vivo MRI. Ongoing work extends this approach to H&amp;E and immunohistochemical staining modalities, with the goal of developing pathology-specific neuroimaging biomarkers for the distinct substrates of WMH.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -318,9 +305,9 @@ img: /assets/img/12.jpg
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/1.jpg" sizes="95vw"></source>
+      <source class="responsive-img-srcset" srcset="/assets/img/neuropathology/Figure3D.png" sizes="95vw"></source>
     
-    <img src="/assets/img/1.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/neuropathology/Figure3D.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="3D reconstruction of tau IHC and burden maps" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -340,9 +327,9 @@ img: /assets/img/12.jpg
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/3.jpg" sizes="95vw"></source>
+      <source class="responsive-img-srcset" srcset="/assets/img/neuropathology/Patches.png" sizes="95vw"></source>
     
-    <img src="/assets/img/3.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/neuropathology/Patches.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Example activation maps for tau and TDP-43 pathology" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -362,9 +349,9 @@ img: /assets/img/12.jpg
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/5.jpg" sizes="95vw"></source>
+      <source class="responsive-img-srcset" srcset="/assets/img/neuropathology/wmh.png" sizes="95vw"></source>
     
-    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/neuropathology/wmh.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="myelin loss heatmaps registered to MR images" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -373,105 +360,10 @@ img: /assets/img/12.jpg
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/5.jpg" sizes="95vw"></source>
-    
-    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left:Example activation maps for tau and TDP-43 pathology, Middle: 3D reconstruction of tau IHC and burden maps, Right: Myelin loss heatmaps registered to MR images.
 </div>
 
-<p>You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, <em>bled</em> for your project, and then… you reveal its glory in the next row of images.</p>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/6.jpg" sizes="95vw"></source>
-    
-    <img src="/assets/img/6.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/11.jpg" sizes="95vw"></source>
-    
-    <img src="/assets/img/11.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-<p>The code is simple.
-Just wrap your images with <code class="language-plaintext highlighter-rouge">&lt;div class="col-sm"&gt;</code> and place them inside <code class="language-plaintext highlighter-rouge">&lt;div class="row"&gt;</code> (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" rel="external nofollow noopener" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
-Here’s the code for the last row of images above:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-sm-center"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
+<p>The PATCH Lab has also built a unique dataset of serial histopathology to analyze pathological burden across the 3D extent of the brain, compared to conventional histopathology which is done with sparse sampling in limited brain regions. We developed an automated framework for 3D reconstruction of serial histology co-registered to same-subject postmortem imaging of the medial temporal lobe using multimodality image registration. From this reconstruction we can develop 3D maps of pathological burden, used to characterize the 3D extent of tau pathology across the hippocampal long axis (Yushkevich et al., 2021) and to analyze tau pathological burden within individual MTL subregions (Ravikumar et al., 2024). Serial Nissl staining from this dataset with dense anatomical labeling from the Human Neuroanatomy Laboratory at the University of Castilla La Mancha, led by renounced neuroanatomist Ricardo Insausti, is publicly available at <a href="https://histo.itksnap.org/about" rel="external nofollow noopener" target="_blank">https://histo.itksnap.org/about</a>.</p>
 
   </article>
 
@@ -1142,9 +1034,9 @@ Here’s the code for the last row of images above:</p>
               description: "Tau-Neurodegeneration/Cognition Mismatch Framework",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/2_mismatch/";
-                },},{id: "projects-project-3-with-very-long-name",
-              title: 'project 3 with very long name',
-              description: "a project that redirects to another website",
+                },},{id: "projects-quantitative-neuropathology",
+              title: 'Quantitative Neuropathology',
+              description: "Deep learning-based measures for quantification of human neuropathology",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/3_project/";
                 },},{id: "projects-project-4",
@@ -1178,6 +1070,13 @@ Here’s the code for the last row of images above:</p>
               section: "Projects",handler: () => {
                   window.location.href = "/projects/9_project/";
                 },},{
+            id: 'socials-github',
+            title: 'GitHub',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://github.com/patchlab-upenn", "_blank");
+            },
+          },{
             id: 'socials-linkedin',
             title: 'LinkedIn',
             section: 'Socials',
