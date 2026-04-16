@@ -1,81 +1,29 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Quantitative Neuropathology
+description: Deep learning-based measures for quantification of human neuropathology
+img: assets/img/neuropathology/brainPaper.png
 importance: 3
-category: work
+category: primary
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Postmortem neuropathology is the gold standard for analysis of neurodegenerative pathologies yet is limited by time-consuming semi-quantitative ratings by experts applied to sparsely sampled brain regions. To address these concerns, the PATCH lab has developed multiple computational tools to digitally quantify neuropathology across the three-dimensional space of the brain. Deep learning-based techniques allow for high throughput analysis of digitally scanned sections and can characterize a wider range of pathological burden than traditional semi-quantitative ratings of pathology. Many of these projects have been done in close collaboration with the Penn Digital Neuropathology Lab, led by Dr. David Irwin. Thus far, we have developed models for quantification of tau pathology in Alzheimer's Disease and TDP-43 pathology in limbic predominant age-related TDP4-3 encephalopathy {% cite yushkevich20213d athalye2025operationalizing denning2024association %}. Using both antemortem and postmortem imaging, we have found strong, regionally specific associations between tau pathology and MTL cortical thickness {% cite ravikumar2024postmortem %} and found that quantitative measurement of tau pathology significantly improved modeling of MTL structure compared to traditional semi-quantitative ratings {% cite denning2024association %}. Further work is underway for quantification of neuron and glial density, amyloid-beta plaques and cerebral amyloid angiopathy, and calcium-binding interneurons.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We are also extending quantitative neuropathology methods to white matter pathology, focusing on the heterogeneous substrates underlying white matter hyperintensities (WMH) on MRI. WMH are prevalent markers of aging and neurodegeneration, yet reflect a mixture of demyelination, vascular injury, inflammation, and axonal loss that volumetric measures cannot disentangle. We developed an automated pipeline for quantifying myelin integrity from LFB-CV stained whole-slide images using optical density normalized against automatically identified intact reference regions, establishing histological ground truth to train models that predict regional myelin loss from in vivo MRI. Ongoing work extends this approach to H&E and immunohistochemical staining modalities, with the goal of developing pathology-specific neuroimaging biomarkers for the distinct substrates of WMH.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neuropathology/Figure3D.png" title="3D reconstruction of tau IHC and burden maps" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neuropathology/Patches.png" title="Example activation maps for tau and TDP-43 pathology" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neuropathology/wmh.png" title="myelin loss heatmaps registered to MR images" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left:Example activation maps for tau and TDP-43 pathology, Middle: 3D reconstruction of tau IHC and burden maps, Right: Myelin loss heatmaps registered to MR images.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The PATCH Lab has also built a unique dataset of serial histopathology to analyze pathological burden across the 3D extent of the brain, compared to conventional histopathology which is done with sparse sampling in limited brain regions. We developed an automated framework for 3D reconstruction of serial histology co-registered to same-subject postmortem imaging of the medial temporal lobe using multimodality image registration. From this reconstruction we can develop 3D maps of pathological burden, used to characterize the 3D extent of tau pathology across the hippocampal long axis (Yushkevich et al., 2021) and to analyze tau pathological burden within individual MTL subregions (Ravikumar et al., 2024). Serial Nissl staining from this dataset with dense anatomical labeling from the Human Neuroanatomy Laboratory at the University of Castilla La Mancha, led by renounced neuroanatomist Ricardo Insausti, is publicly available at <a href="https://histo.itksnap.org/about">https://histo.itksnap.org/about</a>.
