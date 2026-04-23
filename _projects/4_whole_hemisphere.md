@@ -2,7 +2,7 @@
 layout: page
 title: Whole-hemisphere postmortem imaging in ADRD
 description: Whole-hemisphere 7T MRI and MRI-guided histology sampling in ADRD
-img:
+img: assets/img/whole_hemisphere/slabbing.jpg
 importance: 4
 category: primary
 related_publications: true
@@ -23,11 +23,11 @@ Traditional brain banking relies on sparse diagnostic sampling that can miss cri
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/whole_hemisphere/wmh.png" title="WMH in MRI and histology" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/whole_hemisphere/wmh.jpg" title="WMH in MRI and histology" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This pipeline is particularly well-suited for **studying spatially heterogeneous, "patchy" pathologies** such as cerebrovascular small vessel disease, chronic traumatic encephalopathy (CTE), aging-related tau astrogliopathy (ARTAG), and argyrophilic grain disease, at a precision and scale not previously feasible.
+    This pipeline is particularly well-suited for studying spatially heterogeneous, "patchy" pathologies such as cerebrovascular small vessel disease, chronic traumatic encephalopathy (CTE), aging-related tau astrogliopathy (ARTAG), and argyrophilic grain disease, at a precision and scale not previously feasible.
 </div>
 
 With **over 250 hemispheres scanned** to date and ongoing work to extend our quantitative pathology models to α-synuclein and TDP-43, this pipeline lays the groundwork for creating normative and disease phenotype maps of pathology, developing MRI-derived signatures applicable to in vivo biomarker development, and refining neuropathological sampling criteria across the full spectrum of neurodegenerative conditions {% cite athalye2025operationalizing %}

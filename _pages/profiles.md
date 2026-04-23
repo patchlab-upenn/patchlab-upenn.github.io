@@ -133,7 +133,7 @@ profiles:
         </p>
 
   - align: left
-    image: people/chinmayee.jpg
+    image: people/chinmayee_athalye.jpg
     content: people/people_chinmayee_athalye.md
     image_circular: false
     more_info: >
