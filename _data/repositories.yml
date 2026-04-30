@@ -1,7 +1,7 @@
-github_users:
-  - pyushkevich
-  - Pulkit-Khandelwal
-  - ins0mniac2
+#github_users:
+#  - pyushkevich
+#  - Pulkit-Khandelwal
+#  - ins0mniac2
 
 repo_description_lines_max: 2
 
@@ -11,3 +11,9 @@ github_repos:
   - pyushkevich/c3d
   - pyushkevich/histoannot
   - pyushkevich/hyperresashs
+  - pyushkevich/crashs
+  - pyushkevich/ashs
+  - pyushkevich/cmrep
+  - Pulkit-Khandelwal/purple-mri
+  - Pulkit-Khandelwal/violet
+  - ins0mniac2/aloha
