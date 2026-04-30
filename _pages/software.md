@@ -25,6 +25,14 @@ nav_order: 4
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/software/purple_mri.png" title="ASHS Logo" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <b>purple-mri</b> (<a href="https://pulkit-khandelwal.github.io/exvivo-brain-upenn/">home</a>, <a href="https://github.com/Pulkit-Khandelwal/purple-mri">code</a>) is a comprehensive package for automatic segmentation, surface-based anatomical parcellation, and groupwise registration of ultra-high-resolution postmortem MRI of human brain hemispheres. This tool allows these images to be processed using <a href="https://surfer.nmr.mgh.harvard.edu/">FreeSurfer</a>-based pipelines.
+    </div>
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/software/phas_image.png" title="PHAS screenshot" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
