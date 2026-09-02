@@ -234,6 +234,18 @@
             
           
             
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/jobs/">jobs
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
           
           
             <!-- Search -->
@@ -289,6 +301,10 @@
           
           
           
+            
+            
+            
+            
 
 
 
@@ -300,16 +316,37 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/patch_lab_logo.png" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
+      <source class="responsive-img-srcset" srcset="/assets/img/patch_lab_logo_on_white.png" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
       30vw, 95vw">
     
-    <img src="/assets/img/patch_lab_logo.png?57bb9fc723f555d83b2cec8c8cbe6316" class="img-fluid z-depth-1
-      rounded" width="100%" height="auto" alt="patch_lab_logo.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/patch_lab_logo_on_white.png?43d920e6cac67eb6a7327b13a061939c" class="img-fluid rounded profile-img-light" width="100%" height="auto" alt="patch_lab_logo_on_white.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </source></picture>
 
   
 </figure>
 
+            
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/patch_lab_logo_on_dark.png" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
+      30vw, 95vw">
+    
+    <img src="/assets/img/patch_lab_logo_on_dark.png?e4839f3944a3c518c1971e76fe6b3cd0" class="img-fluid rounded profile-img-dark" width="100%" height="auto" alt="patch_lab_logo_on_dark.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </source></picture>
+
+  
+</figure>
+
+          
         
         
           <div class="more-info">
@@ -667,6 +704,13 @@
               section: "Navigation",
               handler: () => {
                 window.location.href = "/teaching/";
+              },
+            },{id: "nav-jobs",
+              title: "jobs",
+              description: "Open Positions",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/jobs/";
               },
             },{id: "post-a-post-with-plotly-js",
           
