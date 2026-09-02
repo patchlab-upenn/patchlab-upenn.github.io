@@ -17,12 +17,12 @@
   
   
     
-      Quantitative Neuropathology | PATCH|Lab
+      Whole-hemisphere postmortem imaging in ADRD | PATCH|Lab
     
   
 </title>
 <meta name="author" content="Penn ADRD Trajectories, Copathology, and Heterogeneity (PATCH) Lab">
-<meta name="description" content="Deep learning-based measures for quantification of human neuropathology">
+<meta name="description" content="Whole-hemisphere 7T MRI and MRI-guided histology sampling in ADRD">
 
   <meta name="keywords" content="ADRD">
 
@@ -60,7 +60,7 @@
   <link rel="shortcut icon" href="/assets/img/patch_lab_logo.png?57bb9fc723f555d83b2cec8c8cbe6316">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://patchlab-upenn.github.io/projects/3_project/">
+<link rel="canonical" href="https://patchlab-upenn.github.io/projects/4_whole_hemisphere/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
@@ -281,18 +281,16 @@
 <div class="post">
   <header class="post-header">
     
-      <h1 class="post-title">Quantitative Neuropathology</h1>
-      <p class="post-description">Deep learning-based measures for quantification of human neuropathology</p>
+      <h1 class="post-title">Whole-hemisphere postmortem imaging in ADRD</h1>
+      <p class="post-description">Whole-hemisphere 7T MRI and MRI-guided histology sampling in ADRD</p>
     
   </header>
 
   <article>
-    <p>Postmortem neuropathology is the gold standard for analysis of neurodegenerative pathologies yet is limited by time-consuming semi-quantitative ratings by experts applied to sparsely sampled brain regions. To address these concerns, the PATCH lab has developed multiple computational tools to digitally quantify neuropathology across the three-dimensional space of the brain. Deep learning-based techniques allow for high throughput analysis of digitally scanned sections and can characterize a wider range of pathological burden than traditional semi-quantitative ratings of pathology. Many of these projects have been done in close collaboration with the Penn Digital Neuropathology Lab, led by Dr. David Irwin. Thus far, we have developed models for quantification of tau pathology in Alzheimer’s Disease and TDP-43 pathology in limbic predominant age-related TDP4-3 encephalopathy <a class="citation" href="#yushkevich20213d">(Yushkevich et al., 2021; Athalye et al., 2025; Denning et al., 2024)</a>. Using both antemortem and postmortem imaging, we have found strong, regionally specific associations between tau pathology and MTL cortical thickness <a class="citation" href="#ravikumar2024postmortem">(Ravikumar et al., 2024)</a> and found that quantitative measurement of tau pathology significantly improved modeling of MTL structure compared to traditional semi-quantitative ratings <a class="citation" href="#denning2024association">(Denning et al., 2024)</a>. Further work is underway for quantification of neuron and glial density, amyloid-beta plaques and cerebral amyloid angiopathy, and calcium-binding interneurons.</p>
-
-<p>We are also extending quantitative neuropathology methods to white matter pathology, focusing on the heterogeneous substrates underlying white matter hyperintensities (WMH) on MRI. WMH are prevalent markers of aging and neurodegeneration, yet reflect a mixture of demyelination, vascular injury, inflammation, and axonal loss that volumetric measures cannot disentangle. We developed an automated pipeline for quantifying myelin integrity from LFB-CV stained whole-slide images using optical density normalized against automatically identified intact reference regions, establishing histological ground truth to train models that predict regional myelin loss from in vivo MRI. Ongoing work extends this approach to H&amp;E and immunohistochemical staining modalities, with the goal of developing pathology-specific neuroimaging biomarkers for the distinct substrates of WMH.</p>
+    <p>Building on our foundational work in the medial temporal lobe, the PATCH Lab has developed a comprehensive pipeline for <strong>integrating ultra-high resolution 7T postmortem MRI with whole hemisphere histopathology</strong> and enabling large-scale, spatially precise studies of neurodegeneration across the entire cerebral cortex.</p>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-12 mt-3 mt-md-0">
         
 
 
@@ -305,53 +303,9 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/neuropathology/Figure3D.png" sizes="95vw"></source>
+      <source class="responsive-img-srcset" srcset="/assets/img/whole_hemisphere/sampling.png" sizes="95vw"></source>
     
-    <img src="/assets/img/neuropathology/Figure3D.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="3D reconstruction of tau IHC and burden maps" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/neuropathology/Patches.png" sizes="95vw"></source>
-    
-    <img src="/assets/img/neuropathology/Patches.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Example activation maps for tau and TDP-43 pathology" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/neuropathology/wmh.png" sizes="95vw"></source>
-    
-    <img src="/assets/img/neuropathology/wmh.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="myelin loss heatmaps registered to MR images" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/whole_hemisphere/sampling.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="MRI-guided histology sampling" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -360,13 +314,169 @@
     </div>
 </div>
 <div class="caption">
-    Left:Example activation maps for tau and TDP-43 pathology, Middle: 3D reconstruction of tau IHC and burden maps, Right: Myelin loss heatmaps registered to MR images.
+    MRI-guided histology sampling protocol developed by PATCH Lab. We use patient-specific 3D-printed brain hemisphere cutting molds to guide our sectioning and staining strategy for each region of interest.
 </div>
 
-<p>The PATCH Lab has also built a unique dataset of serial histopathology to analyze pathological burden across the 3D extent of the brain, compared to conventional histopathology which is done with sparse sampling in limited brain regions. We developed an automated framework for 3D reconstruction of serial histology co-registered to same-subject postmortem imaging of the medial temporal lobe using multimodality image registration. From this reconstruction we can develop 3D maps of pathological burden, used to characterize the 3D extent of tau pathology across the hippocampal long axis (Yushkevich et al., 2021) and to analyze tau pathological burden within individual MTL subregions (Ravikumar et al., 2024). Serial Nissl staining from this dataset with dense anatomical labeling from the Human Neuroanatomy Laboratory at the University of Castilla La Mancha, led by renounced neuroanatomist Ricardo Insausti, is publicly available at <a href="https://histo.itksnap.org/about" rel="external nofollow noopener" target="_blank">https://histo.itksnap.org/about</a>.</p>
+<p>Traditional brain banking relies on sparse diagnostic sampling that can miss critical regions affected by Alzheimer’s disease and related disorders (ADRD). Our approach overcomes this limitation by using <strong>patient-specific 3D printed molds</strong>, generated directly from ex vivo MRI scans, to guide uniform 1 cm coronal slabbing of the hemisphere. This establishes a permanent spatial reference frame linking every histological section back to its precise location in the 3D MRI volume. We label 19 cortical landmarks on the MRI to target regions of known importance in ADRD, and process the corresponding tissue slabs for histological sectioning and staining at 20 micron thickness using both cytoarchitectural stains (LFB-CV, H&amp;E) and immunohistochemistry (e.g., AT-8 for phosphorylated tau).</p>
+
+<div class="row">
+    <div class="col-12 mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/whole_hemisphere/wmh.jpg" sizes="95vw"></source>
+    
+    <img src="/assets/img/whole_hemisphere/wmh.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="WMH in MRI and histology" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    This pipeline is particularly well-suited for studying spatially heterogeneous, "patchy" pathologies such as cerebrovascular small vessel disease, chronic traumatic encephalopathy (CTE), aging-related tau astrogliopathy (ARTAG), and argyrophilic grain disease, at a precision and scale not previously feasible.
+</div>
+
+<p>With <strong>over 250 hemispheres scanned</strong> to date and ongoing work to extend our quantitative pathology models to α-synuclein and TDP-43, this pipeline lays the groundwork for creating normative and disease phenotype maps of pathology, developing MRI-derived signatures applicable to in vivo biomarker development, and refining neuropathological sampling criteria across the full spectrum of neurodegenerative conditions <a class="citation" href="#athalye2025operationalizing">(Athalye et al., 2025)</a></p>
 
   </article>
 
+  
+    <h2>References</h2>
+    <div class="publications">
+      <h2 class="bibliography">2025</h2>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="athalye2025operationalizing" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Operationalizing postmortem pathology-MRI association studies in Alzheimer’s disease and related disorders with MRI-guided histology sampling</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Chinmayee
+            Athalye, A.
+            Bahena, Pulkit
+            Khandelwal, and
+        <span class="more-authors" title="click to view 20 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '20 more authors' ? 'Sheina Emrani, W. Trotman, Lisa Levorse, Zahra Khodakarami, Daniel T. Ohm, Eric Teunissen‐Bermeo, Noah Capp, S. Sadaghiani, Sanaz Arezoumandan, Sydney A. Lim, K. Prabhakaran, R. Ittyerah, John L. Robinson, T. Schuck, Edward B. Lee, M. Tisdall, Sandhitsu R. Das, D. Wolk, David J. Irwin, Paul Yushkevich' : '20 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">20 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Acta Neuropathologica Communications</em>,  May 2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+        <a href="https://doi.org/10.1186/s40478-025-02030-y" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+        <div class="badges">
+          
+            <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1186/s40478-025-02030-y"></span>
+          
+          
+            <span class="__dimensions_badge_embed__" data-doi="10.1186/s40478-025-02030-y" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          
+          
+            <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=&amp;citation_for_view=:tn5kj04AAAAJ" aria-label="Google Scholar link" role="button" rel="external nofollow noopener" target="_blank">
+              <img src="https://img.shields.io/badge/scholar-N/A-4285F4?logo=googlescholar&amp;labelColor=beige" alt="N/A Google Scholar citations">
+            </a>
+          
+          
+        </div>
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Postmortem neuropathological examination, while the gold standard for diagnosing neurodegenerative diseases, often relies on limited regional sampling that may miss critical areas affected by Alzheimer’s disease and related disorders. Ultra-high resolution postmortem MRI can help identify regions that fall outside the diagnostic sampling criteria for additional histopathologic evaluation. However, there are no standardized guidelines for integrating histology and MRI in a traditional brain bank. We developed a comprehensive protocol for whole hemisphere postmortem 7T MRI-guided histopathological sampling with whole-slide digital imaging and histopathological analysis, providing a reliable pipeline for high-volume brain banking in heterogeneous brain tissue. Our method uses patient-specific 3D printed molds built from postmortem MRI, allowing standardized tissue processing with a permanent spatial reference frame. To facilitate pathology-MRI association studies, we created a semi-automated MRI to histology registration pipeline and developed a quantitative pathology scoring system using weakly supervised deep learning. We validated this protocol on a cohort of 29 brains with diagnosis on the AD spectrum that revealed correlations between cortical thickness and phosphorylated tau accumulation. This pipeline has broad applicability across neuropathological research and brain banking, facilitating large-scale studies that integrate histology with neuroimaging. The innovations presented here provide a scalable and reproducible approach to studying postmortem brain pathology, with implications for advancing diagnostic and therapeutic strategies for Alzheimer’s disease and related disorders.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
+    </div>
   
 
   
@@ -1038,12 +1148,12 @@
               title: 'Quantitative Neuropathology',
               description: "Deep learning-based measures for quantification of human neuropathology",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/3_project/";
-                },},{id: "projects-project-4",
-              title: 'project 4',
-              description: "another without an image",
+                  window.location.href = "/projects/3_quantitative/";
+                },},{id: "projects-whole-hemisphere-postmortem-imaging-in-adrd",
+              title: 'Whole-hemisphere postmortem imaging in ADRD',
+              description: "Whole-hemisphere 7T MRI and MRI-guided histology sampling in ADRD",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/4_project/";
+                  window.location.href = "/projects/4_whole_hemisphere/";
                 },},{id: "projects-project-5",
               title: 'project 5',
               description: "a project with a background image",
