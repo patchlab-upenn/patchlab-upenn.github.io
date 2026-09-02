@@ -63,6 +63,13 @@
     display: none;
   }
 
+  .profile-img-light {
+    display: block;
+  }
+  .profile-img-dark {
+    display: none;
+  }
+
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
@@ -115,6 +122,13 @@ html[data-theme="dark"] {
     display: none;
   }
   .repo-img-dark {
+    display: block;
+  }
+
+  .profile-img-light {
+    display: none;
+  }
+  .profile-img-dark {
     display: block;
   }
 }

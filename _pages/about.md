@@ -6,7 +6,8 @@ subtitle: Penn ADRD Trajectories, Copathology, and Heterogeneity Lab
 
 profile:
   align: right
-  image: patch_lab_logo.png
+  image: patch_lab_logo_on_white.png
+  image_dark: patch_lab_logo_on_dark.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Richards Medical Research Laboratories</p>
