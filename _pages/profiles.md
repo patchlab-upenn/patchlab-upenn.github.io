@@ -147,7 +147,7 @@ profiles:
 
   - align: left
     image: people/gaylord.png
-    content:
+    content: people/people_gaylord_holder.md
     image_circular: false
     more_info: >
       <p>Gaylord Holder</p>
