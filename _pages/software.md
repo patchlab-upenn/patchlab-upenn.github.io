@@ -20,7 +20,7 @@ nav_order: 4
         {% include figure.liquid path="assets/img/software/ashs_logo.png" title="ASHS Logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <b>Automatic Segmentation of Hippocampal Subfields (ASHS)</b> (<a href="https://sites.google.com/view/ashs-dox/home">home</a>, <a href="https://github.com/pyushkevich/ashs">code</a>) and the new version <b>HyperResASHS</b> (<a href="https://github.com/pyushkevich/HyperResASHS">home</a>)) is a tool for automatic segmentation of the medial temporal lobe (MTL) substructures from brain MRI scans. These structures are involved in early Alzheimer's disease and in a number of other neurological conditions. They are also important in research on memory and cognition.
+        <b>Automatic Segmentation of Hippocampal Subfields (ASHS)</b> (<a href="https://sites.google.com/view/ashs-dox/home">home</a>., <a href="https://github.com/pyushkevich/ashs">code</a>) and the new version <b>HyperResASHS</b> (<a href="https://github.com/pyushkevich/HyperResASHS">home</a>)) is a tool for automatic segmentation of the medial temporal lobe (MTL) substructures from brain MRI scans. These structures are involved in early Alzheimer's disease and in a number of other neurological conditions. They are also important in research on memory and cognition.
     </div>
 </div>
 <div class="row justify-content-sm-center">
@@ -28,7 +28,7 @@ nav_order: 4
         {% include figure.liquid path="assets/img/software/purple_mri.png" title="ASHS Logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <b>purple-mri</b> (<a href="https://pulkit-khandelwal.github.io/exvivo-brain-upenn/">home</a>, <a href="https://github.com/Pulkit-Khandelwal/purple-mri">code</a>) is a comprehensive package for automatic segmentation, surface-based anatomical parcellation, and groupwise registration of ultra-high-resolution postmortem MRI of human brain hemispheres. This tool allows these images to be processed using <a href="https://surfer.nmr.mgh.harvard.edu/">FreeSurfer</a>-based pipelines.
+        <b>purple-mri</b> (<a href="https://purple-mri.readthedocs.io/en/latest/">home</a>, <a href="https://github.com/Pulkit-Khandelwal/purple-mri">code</a>) is a computational package for automated tissue segmentation, registration, cortical surface reconstruction, anatomical parcellation, and group-level analysis of ultra-high-resolution postmortem human brain MRI.
     </div>
 </div>
 <div class="row justify-content-sm-center">
