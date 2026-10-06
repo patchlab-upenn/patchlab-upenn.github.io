@@ -25,4 +25,4 @@ PATCH Lab members are passionate about teaching. We teach two full-semester cour
 
 #### Other Contributions
 
-* **A tour of biomedical image segmentation using deep learning**: Alum Pulkit Khandelwal was a finalist in the **MICCAI 2023 Educational Challenge** with this [entry](https://pulkit-khandelwal.github.io/medical-image-segmentation-deep-learning/) that covered the fundamentals of medical image segmentation exploring both introductory and advanced concepts and covering a large collection of recent papers.   
+* **A tour of biomedical image segmentation using deep learning**: Alum Pulkit Khandelwal was the winner of the **MICCAI 2023 Educational Challenge** with this [entry](https://pulkit-khandelwal.github.io/medical-image-segmentation-deep-learning/) that covered the fundamentals of medical image segmentation exploring both introductory and advanced concepts and covering a large collection of recent papers.
