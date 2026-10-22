@@ -38,6 +38,6 @@ Jekyll site on the al-folio theme, deployed to GitHub Pages from `main` by
   PMC), and credit the figure and license in the caption.
 - News: `_news/<date>-<slug>.md`. The homepage news list is off
   (`announcements.enabled: false` in `_pages/about.md`) until there are news items.
-- Publications: `_bibliography/papers.bib`. Bulk updates come from a Semantic Scholar
-  fetch script that a maintainer runs outside this repository; don't regenerate the file
-  wholesale.
+- Publications: `_bibliography/papers.bib`. To add new papers, use the
+  `update-bibliography` skill (scripts in `tools/bibliography/`). It merges a Semantic
+  Scholar fetch into the file; never replace the file wholesale with a fresh fetch.

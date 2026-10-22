@@ -187,6 +187,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - requirements.txt
+  - tools/
   - vendor
 keep_files:
   - CNAME

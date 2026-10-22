@@ -108,8 +108,10 @@ version of the site.
 - **Figures from papers:** only reuse figures whose license allows it (for example
   CC BY), and credit them. Ask Claude to check the license.
 - **Publications** are listed from `_bibliography/papers.bib`. Small fixes can be made
-  there directly. Bulk updates from Semantic Scholar are currently run by a site
-  maintainer.
+  there directly. To pull in new papers from Semantic Scholar, ask Claude to "update the
+  bibliography". It follows the steps in `.claude/skills/update-bibliography/SKILL.md`,
+  using the scripts in `tools/bibliography/`, and merges new papers into the file
+  without dropping existing ones.
 - **Big changes:** for something large, such as a redesign or many new pages, ask Claude
   to propose a plan first.
 
@@ -132,7 +134,7 @@ contributes through forks and needs no access.
 | People page                    | `_pages/profiles.md` (one entry per person: photo, name, links) with bios in `_pages/people/people_<name>.md` and photos in `assets/img/people/` |
 | Homepage text and address      | `_pages/about.md`                                                                                                                                |
 | Research projects              | `_projects/<n>_<slug>.md` (`category: primary` or `adjacent`), images in `assets/img/<project>/`                                                 |
-| Publications                   | `_bibliography/papers.bib`                                                                                                                       |
+| Publications                   | `_bibliography/papers.bib`, updated with the scripts in `tools/bibliography/` (tracked authors are listed in `fetch_scholar.py`)                 |
 | Software, Teaching, Jobs pages | `_pages/software.md`, `_pages/teaching.md`, `_pages/jobs.md`                                                                                     |
 | GitHub repositories shown      | `_data/repositories.yml`                                                                                                                         |
 | News items                     | `_news/<date>-<slug>.md` (shown on the homepage when `announcements.enabled` is `true` in `_pages/about.md`)                                     |
