@@ -1,4 +1,8 @@
 linkedin.com
 reddit.com
+scholar.google.com
 pathology.med.upenn.edu
 pennmedicine\.org/departments-and-centers/neurology
+
+# local preview addresses in documentation
+https?://localhost
