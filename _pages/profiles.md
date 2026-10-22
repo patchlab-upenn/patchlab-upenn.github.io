@@ -108,7 +108,7 @@ profiles:
         </p>
 
   - align: left
-    # image: people/person.png
+    image: people/nidhi_mundada.jpg
     content: people/people_nidhi_mundada.md
     image_circular: false
     more_info: >
