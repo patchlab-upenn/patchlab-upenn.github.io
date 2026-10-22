@@ -19,6 +19,7 @@ All commands run from the repository root. The scripts live in `tools/bibliograp
   `https://api.semanticscholar.org/graph/v1/author/search?query=<name>`; verify the ID
   by checking the author's papers before adding it).
 - `merge_bibliography.py` merges that output into the site's bibliography.
+- `excluded_dois.txt` lists misattributed papers that the merge drops.
 - `merged_papers.bib` and `scholar_cache.json` are scratch files, ignored by git.
   Deleting them is harmless; every run re-fetches all papers.
 
@@ -55,7 +56,15 @@ All commands run from the repository root. The scripts live in `tools/bibliograp
    ```
 
    Read the printed counts. If `kept_from_old_only` is large, the fetch may have been
-   rate limited or truncated; check the fetch output before going on. The merge sorts
+   rate limited or truncated; check the fetch output before going on.
+
+   The merge drops the papers listed in `tools/bibliography/excluded_dois.txt`, which
+   Semantic Scholar wrongly attributes to a lab author (for example, it has merged a CMS
+   physicist named Das Chagas into Sandy Das's profile). It warns about entries without
+   a lab author. Show those to the user, and with their agreement add the DOIs of
+   misattributed papers to the exclusion file and merge again.
+
+   The merge sorts
    entries by year (descending), month (descending), then first author's surname. The
    publications page shows entries in file order (`sort_by` is unset in the `scholar:`
    block of `_config.yml`).

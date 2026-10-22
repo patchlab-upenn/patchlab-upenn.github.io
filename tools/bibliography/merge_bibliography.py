@@ -10,6 +10,11 @@ that exist only in the old file are kept as-is. Entries that exist only in
 the new file are added. The result is sorted by year (desc), month (desc),
 then first author's surname (asc) - matching the site's publications page.
 
+Entries whose DOI is listed in excluded_dois.txt (papers Semantic Scholar wrongly
+attributes to a lab author) are dropped from both files. Entries with none of
+LAB_SURNAMES among their authors are listed as a warning, since they are often
+such misattributions.
+
 Usage (from the repository root):
     python3 tools/bibliography/merge_bibliography.py \
         --old _bibliography/papers.bib \
@@ -18,7 +23,13 @@ Usage (from the repository root):
 """
 
 import argparse
+import os
 import re
+
+EXCLUDE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "excluded_dois.txt")
+
+# Surnames of the authors tracked in fetch_scholar.py
+LAB_SURNAMES = ["Yushkevich", "Wolk", "Das"]
 
 MONTHS = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -43,8 +54,26 @@ def parse_entries(path):
         title = re.sub(r"\s+", " ", title_m.group(1).strip().lower()) if title_m else ""
         doi = doi_m.group(1).strip().lower() if doi_m else ""
         fp = f"title:{title}" if title else f"doi:{doi}"
-        entries.append({"key": key, "type": etype, "raw": c, "fp": fp})
+        entries.append({"key": key, "type": etype, "raw": c, "fp": fp, "doi": doi})
     return entries
+
+
+def load_excluded(path):
+    if not os.path.exists(path):
+        return set()
+    with open(path, encoding="utf-8") as f:
+        return {line.strip().lower() for line in f
+                if line.strip() and not line.startswith("#")}
+
+
+def has_lab_author(raw):
+    m = re.search(r"author\s*=\s*\{(.*?)\}\s*,", raw, re.S)
+    authors = m.group(1) if m else ""
+    # The surname must end a name ("Sandhitsu R. Das") or start one in
+    # "Last, First" form, so "E. B. B. Das Chagas" doesn't count.
+    names = [n.strip() for n in re.split(r"\s+and\s+", authors)]
+    return any(n.endswith(" " + surname) or n == surname or n.startswith(surname + ",")
+               for n in names for surname in LAB_SURNAMES)
 
 
 def first_author_surname(raw):
@@ -87,10 +116,17 @@ def main():
     ap.add_argument("--old", required=True, help="Existing site papers.bib")
     ap.add_argument("--new", required=True, help="Freshly fetched merged_papers.bib")
     ap.add_argument("--out", required=True, help="Output path")
+    ap.add_argument("--exclude", default=EXCLUDE_FILE,
+                    help=f"File of DOIs to drop (default: {EXCLUDE_FILE})")
     args = ap.parse_args()
 
+    excluded = load_excluded(args.exclude)
     old = parse_entries(args.old)
     new = parse_entries(args.new)
+    n_before = len(old) + len(new)
+    old = [e for e in old if e["doi"] not in excluded]
+    new = [e for e in new if e["doi"] not in excluded]
+    n_excluded = n_before - len(old) - len(new)
 
     old_by_fp = {}
     for e in old:
@@ -128,7 +164,15 @@ def main():
             f.write("\n\n")
 
     print(f"old={len(old_by_fp)} new={len(merged) - kept_from_old} "
-          f"kept_from_old_only={kept_from_old} merged_total={len(entries)}")
+          f"kept_from_old_only={kept_from_old} merged_total={len(entries)} "
+          f"excluded={n_excluded}")
+    no_lab = [e for e in entries if not has_lab_author(e["raw"])]
+    if no_lab:
+        print(f"WARNING: {len(no_lab)} entries have no author named "
+              f"{', '.join(LAB_SURNAMES)}; check them and add misattributed DOIs "
+              f"to {args.exclude}:")
+        for e in no_lab:
+            print(f"  {e['key']}  doi={e['doi'] or '-'}")
     print(f"wrote {args.out}")
 
 
