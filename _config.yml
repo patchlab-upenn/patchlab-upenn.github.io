@@ -261,8 +261,17 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  # Lab members whose names are highlighted in publication author lists. The first
+  # names must match the bibliography exactly, so list each spelling that occurs.
+  highlight_authors:
+    - last: Yushkevich
+      first: [Paul, Paul A., P., P. A.]
+    - last: Wolk
+      first: [David, David A., David A, D., D. A.]
+    - last: Das
+      first: [Sandhitsu, Sandhitsu R., Sandhitsu R, Sandihitsu R., S. R., S.R., Sandy]
+    - last: Brown
+      first: [Christopher, Christopher A., Christopher A, Christopher D., C. A.]
 
   style: apa
   locale: en
