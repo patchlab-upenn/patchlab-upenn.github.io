@@ -1,12 +1,4 @@
 /* From https://github.com/dunovank/jupyter-themes/blob/master/jupyterthemes/styles/compiled/grade3.css */
-div#notebook {
-  font-family: sans-serif;
-  font-size: 13pt;
-  line-height: 170%;
-  color: #303030;
-  -webkit-font-smoothing: antialiased !important;
-  padding-top: 25px !important;
-}
 
 body,
 div.body {
@@ -98,23 +90,9 @@ input[type="checkbox"] {
   font-size: 18px;
 }
 
-ul#tabs a {
-  font-family: sans-serif;
-  font-size: 13.5pt;
-  font-weight: normal;
-  font-style: normal;
-  text-shadow: none !important;
-}
-
 .nav > li.disabled > a,
 .nav > li.disabled > a:hover {
   color: #828892;
-}
-
-div#notebook {
-  font-family: sans-serif;
-  font-size: 13pt;
-  padding-top: 4px;
 }
 
 .container {
@@ -128,16 +106,6 @@ div#notebook {
   font-size: 13pt;
   box-shadow: none;
   background-color: #ffffff;
-}
-
-#header .header-bar {
-  background: #ffffff;
-  background-color: #ffffff;
-}
-
-body > #header .header-bar {
-  width: 100%;
-  background: #ffffff;
 }
 
 .navbar {
@@ -460,7 +428,6 @@ h6,
 pre,
 code,
 form,
-legend,
 input,
 button,
 textarea,
