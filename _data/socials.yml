@@ -46,6 +46,6 @@ scholar_userid: x-a4f8wAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 #custom_social: # can be any name here other than the ones already defined above
-  #logo: https://github.com/patchlab-upenn/patchlab-upenn.github.io/blob/main/assets/img/patch_lab_logo.png # can be png, svg, jpg
-  #title: Custom Social
-  #url: https://patchlab.pennbrain.upenn.edu/
+#logo: https://github.com/patchlab-upenn/patchlab-upenn.github.io/blob/main/assets/img/patch_lab_logo.png # can be png, svg, jpg
+#title: Custom Social
+#url: https://patchlab.pennbrain.upenn.edu/

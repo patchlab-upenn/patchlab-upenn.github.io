@@ -55,4 +55,3 @@ nav_order: 4
         <b>Greedy</b> (<a href="https://sites.google.com/view/greedyreg/home">home</a>, <a href="https://github.com/pyushkevich/greedy">code</a>, <a href="https://github.com/pyushkevich/greedy_python">python wrapper</a>) is a tool for fast medical image registration. The motivation for developing greedy was to have a really fast CPU-based deformable image registration tool that could be used in applications and pipelines where many images have to be registered in parallel. 
     </div>
 </div>
-
