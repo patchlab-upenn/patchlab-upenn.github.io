@@ -20,7 +20,7 @@ nav_order: 4
         {% include figure.liquid path="assets/img/software/ashs_logo.png" title="ASHS Logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <b>Automatic Segmentation of Hippocampal Subfields (ASHS)</b> (<a href="https://sites.google.com/view/ashs-dox/home">home</a>., <a href="https://github.com/pyushkevich/ashs">code</a>) and the new version <b>HyperResASHS</b> (<a href="https://github.com/pyushkevich/HyperResASHS">home</a>)) is a tool for automatic segmentation of the medial temporal lobe (MTL) substructures from brain MRI scans. These structures are involved in early Alzheimer's disease and in a number of other neurological conditions. They are also important in research on memory and cognition.
+        <b>Automatic Segmentation of Hippocampal Subfields (ASHS)</b> (<a href="https://ashs.itksnap.org">home</a>., <a href="https://github.com/pyushkevich/ashs">code</a>) and the new version <b>HyperResASHS</b> (<a href="https://ashs.itksnap.org">home</a>)) is a tool for automatic segmentation of the medial temporal lobe (MTL) substructures from brain MRI scans. These structures are involved in early Alzheimer's disease and in a number of other neurological conditions. They are also important in research on memory and cognition.
     </div>
 </div>
 <div class="row justify-content-sm-center">
